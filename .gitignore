@@ -264,3 +264,5 @@ target/
 # Mypy cache
 .mypy_cache/
 >>>>>>> master
+
+cred.txt
