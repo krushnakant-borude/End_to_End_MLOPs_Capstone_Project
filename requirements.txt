@@ -18,3 +18,4 @@ pandas
 PyYAML
 scikit-learn
 scipy
+prometheus-client
