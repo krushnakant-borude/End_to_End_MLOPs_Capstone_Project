@@ -35,6 +35,8 @@ mlflow.set_tracking_uri('https://dagshub.com/krushnakant-borude/End_to_End_MLOPs
 dagshub.init(repo_owner='krushnakant-borude', repo_name='End_to_End_MLOPs_Capstone_Project', mlflow=True)
 # -------------------------------------------------------------------------------------
 
+#for CI githuacts authentication
+dagshub_token = os.getenv("DAGSHUB_TOKEN")
 
 def load_model(file_path: str):
     """Load the trained model from a file."""
